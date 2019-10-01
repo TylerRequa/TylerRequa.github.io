@@ -1,0 +1,36 @@
+a{
+    color: #ffd54f;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #e0f2f1;
+}
+
+body{
+    background-color: #b2dfdb;
+    font-family: arial;
+}
+
+header{
+    background-color: #004d40;
+    color: #000000;
+    align-content: center;
+}
+
+h1{
+    height: 75px;
+    font-family: serif;
+}
+
+article{
+    background-color: #00796B;
+    padding: 5px;
+}
+
+span{
+    color: #cc0000;
+    font-weight: bold;
+}
+
+
