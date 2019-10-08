@@ -1,0 +1,42 @@
+body{
+    background-color: #1d7373;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+section{
+    width: 750px;
+    margin: auto;
+}
+
+div{
+    width: 300px;
+    margin: 30px;
+    padding: 5px;
+    background-color: #5ccccc;
+    border-radius: 10px;
+}
+
+header{
+    width: 750px;
+    margin: auto;
+    background-color: #006363;
+    border-radius: 10px;
+    text-decoration-color: #5ccccc;
+}
+
+h1{
+    line-height: 70px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+td{
+    text-align: left;
+}
+
+th{
+    width: 100px;
+}
