@@ -1,0 +1,27 @@
+.car-card{
+            width: 270px;
+            height: 480px;
+            margin: 0 5px 5px 5px;
+            float: left;
+            padding: 10px;
+            position: relative;
+            box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.55);
+        background-color: white;
+        }
+        .car-img{
+            position: absolute;
+            bottom: 240px;
+            width: 90%;
+        }
+        .car-info{
+            position: absolute;
+            bottom: 100px;
+            left: 60px;
+            font-size: 20px;
+        }
+        .car-name{
+            position: absolute;
+            bottom: 140px;
+            left: 60px;
+            font-size: 30px;
+        }

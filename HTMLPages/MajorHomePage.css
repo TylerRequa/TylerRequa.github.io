@@ -1,0 +1,188 @@
+
+*:any-link{
+    text-decoration: none;
+}
+
+
+body{
+}
+
+.bottom{
+    position: fixed;
+    left: 30%;
+    bottom: 0;
+    width: 100%;   
+    z-index: 1;
+}
+
+.bottext{
+    font-size: 50px;
+    float: left;
+    font-family: 'Staatliches', cursive;
+    margin-left: 100px;
+    color: #54585B
+}
+
+.bottext2{
+    font-size: 50px;
+    float: left;
+    font-family: 'Staatliches', cursive;
+    color: #54585B
+}
+
+.botimg1{
+    width: 50px;
+    
+    float: left;
+    
+}
+
+.botimg{
+    width: 50px;
+    float: left;
+    
+}
+
+
+.content-title{
+    font-size: 50px;
+    font-family: 'Staatliches', cursive;
+    text-decoration: underline;
+    margin-top: 800px;
+}
+
+.content-title2{
+    font-size: 50px;
+    font-family: 'Staatliches', cursive;
+    text-decoration: underline;
+}
+
+.content-container{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    height: 500px;
+    border-spacing: 5px;
+}
+
+.content-card{
+    width: 300px;
+    height: 330px;
+    margin-left: 10%;
+    margin-right: 10px;
+    z-index: 1;
+    margin-top: 100px;
+    background-color: grey;
+    display: table-row;
+}
+
+.content-card:hover{
+    transform: scale(1.05);
+    transition: all .2s ease-in;
+}
+
+.content-card:not(hover){
+    transform: scale(1);
+    transition: all .2s ease-in;
+}
+
+.img1{
+    width: 250px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+
+.content-text{
+    margin-left: 75px;
+    margin-top: 5px;
+    
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-family:  'Staatliches', cursive;
+    
+}
+
+header{
+    font-family: 'Staatliches', cursive;
+    height: 100vh;
+    font-size: 70px;
+    position: relative;
+    
+}
+
+.hello-text{
+    position: relative;
+     animation-name: helloanim;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    
+}
+
+.name-text{
+    position: relative;
+     animation-name: textanim;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+}
+
+
+
+@keyframes textanim{
+    0%{
+            transform: translateY(1000px);
+        }
+    
+    100%{
+            transform: translateY(0px)
+            }
+}
+
+@keyframes helloanim{
+     0%{
+            transform: translateY(1000px);
+         
+        }
+    
+    100%{
+            transform: translateY(0px)
+            }
+}
+
+
+#pica{
+}
+
+#ada{
+    height: 324px;
+}
+
+#piano{
+    height: 339px;
+}
+
+#starry{
+    height: 310px;
+}
+
+#depot{
+    height: 310px;
+}
+
+#table{
+    height: 300px;
+}
+
+
+
+
+
+
+
+
