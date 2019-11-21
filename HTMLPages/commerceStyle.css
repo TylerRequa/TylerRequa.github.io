@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+body{
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    background-color: #dddddd;
+    width: 350px;
+    justify-content: flex-start;
+    position: sticky;
+    top: 0px;
+    margin-top: -60px;
+}
+
+.navbar-top{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: #bbbbbb;
+    position: sticky;
+    top: 0px;
+    justify-content: flex-end;
+}
+
+.navtopflex{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navtopimg{
+    height: 35px;
+    align-self: center;
+    
+}
+
+.title{
+    height: 100px;
+    width: 290px;
+    margin-top: 35px;
+    align-self: center;
+    position: sticky;
+    top:25px;
+}
+
+.searchicon{
+    height: 40px;
+    width: 47px;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 185px;
+}
+
+.navtext{
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    position: sticky;
+    top: 250px;
+}
+
+.navandstuff{
+    display: flex;
+}
+
+.catalog{
+    width: 100%;
+}
+
+#couchtext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#couch{
+    width: 100%;
+    
+}
+
+#lamp{
+    width: 24.3%;
+}
+
+#hook{
+    width: 24.3%;
+}
+
+#vase{
+    width: 24.3%;
+}
+
+#poster{
+    width: 24.3%;
+}
+
+#downarrow{
+    margin-left: 50%;
+}
+
+.clearancebox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fc504a;
+    height: 150px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+#shelfshopping{
+    width: 100%;
+}
+
+#shelf{
+    width: 49.5%;
+}
+
+#feltbowl{
+    width: 49.5%;
+}
+
+
+.small{
+    width: 24%;
+}
+
+.deliverybox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #63B1EF;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    height: 200px;
+    font-weight: bold;
+    
+}
+
+#shop1{
+    width: 49%;
+    
+}
+
+#shop2{
+    width: 49%;
+}
+
+.ourshop{
+    width: 49%;
+    height: 49%;
+    background-image: url(../images/ourshop.png);
+    background-size: 100% 100%;
+}
+
+    
+
+    
