@@ -163,6 +163,53 @@ body{
     background-size: 100% 100%;
 }
 
+#companies{
+    width: 100%;
+}
+
+.tradesales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2D5298;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    height: 150px;
+}
+
+.bottomstuff{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.discount{
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    background-color: black;
+    color: white;
+    writing-mode: vertical-lr;
+    height: 130px;
+    width: 50px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 10;
+    float: right;
+    position: sticky;
+    top: 50%;
+}
+
+.everything{
+    margin-top: -130px;
+}
+
+
     
 
     
