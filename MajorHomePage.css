@@ -95,8 +95,18 @@ body{
 }
 
 .content-text{
-    margin-left: 75px;
-    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-family:  'Staatliches', cursive;
+}
+
+.content-text1{
+    display: flex;
+    justify-content: center;
     
     color: white;
     text-decoration: none;
@@ -104,6 +114,8 @@ body{
     font-family:  'Staatliches', cursive;
     
 }
+
+
 
 header{
     font-family: 'Staatliches', cursive;
