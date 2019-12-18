@@ -1,0 +1,155 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: #F3F4F6;
+}
+
+.smalltext{
+    font-size: 12px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    flex-flow: wrap;
+    margin: 10px;
+}
+
+.cards{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.rowOne{
+    display: flex;
+}
+
+.rowTwo{
+    display: flex;
+}
+
+.rowThree{
+    display: flex;
+}
+
+.percent{
+    width: 30px;
+}
+
+.num{
+    width: 40px;
+}
+
+.smalltext{
+    margin-left: 10px;
+}
+
+.imgs{
+    width: 20px;
+    height: 20px;
+}
+
+.sideArrows{
+    background-color: #E9E9F2;
+    width: 30px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#arrow{
+    height: 25px;
+    width: 18px;
+}
+
+#arrowTwo{
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.nine{
+    margin-right: 100%;
+}
+
+.header{
+    background-color: #DDE1E4;
+    height: 110px;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    float: none;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+.search{
+    margin-left: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    height: 30px;
+    width: 40%;
+    margin-top: 15px;
+    color: #9B9FA2;
+    display: flex;
+    align-items: center;
+}
+
+.hRowOne{
+    display: flex;
+}
+
+.hRowTwo{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#sText{
+    margin-left: 10px;
+}
+
+#sImage{
+    margin-left: 6px;
+}
+
+
+#logo{
+    margin-left: 30px;
+    height: 32px;
+    margin-top: 10px;
+}
+
+.login{
+    margin-top: 15px;
+    color: #9B9FA2;
+    margin-left: auto;
+}
+
+.signup{
+    display: flex;
+    margin-top: 9px;
+    margin-left: 60px;
+    color: white;
+    background-color: #02B957;
+    width: 85px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#myname{
+    z-index: 5;
+    position: relative;
+    color: red;
+    font-size: 50px;
+    font-family:cursive;
+}
+
+
